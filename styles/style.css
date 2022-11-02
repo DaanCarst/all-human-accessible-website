@@ -27,6 +27,7 @@ body {
     text-decoration: none;
     font-size: 17px;
     opacity: 100%;
+    padding: 15px;
   }
   
   nav a:hover {
@@ -170,5 +171,23 @@ body {
     transform: scale(1.2);
   }
 
+.align-right{
+  float: right;
+}
 
+.popup{
+width: 90%;
+height: 90%;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+display: none;
+}
 
+.popup-container{
+  width: 100%;
+  height: 100%;
+  background: yellow;
+  position: relative;
+}
